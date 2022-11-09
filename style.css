@@ -87,3 +87,8 @@ h2 {
   padding: 70px
 }
 
+img {
+  width: 30%;
+  min-width: 100px;
+  height: auto;
+}
