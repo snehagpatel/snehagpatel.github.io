@@ -45,6 +45,7 @@ h2 {
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #51b86e !important;
   background-color: #fff !important;
+  transition-delay: 1s;
 }
 
 .navbar-default .navbar-toggle {
