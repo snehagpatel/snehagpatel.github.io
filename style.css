@@ -89,6 +89,7 @@ h2 {
 
 img {
   width: 30%;
-  min-width: 100px;
+  min-width: 200px;
+  max-width: 300px;
   height: auto;
 }
