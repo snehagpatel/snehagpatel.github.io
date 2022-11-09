@@ -41,23 +41,18 @@ body {
 .container {
   overflow: hidden;
   width: 825px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto
 }
 
 
 
 #content-container {
   background-color: #fff;
-  min-height: -webkit-calc(100% - 162px);
   min-height: calc(100% - 162px);
-  min-height: -moz-calc(100% - 162px);
-  width: 100%;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: -webkit-calc(100% - 60px);
-  width: -moz-calc(100% - 60px);
   width: calc(100% - 60px);
+  margin: auto;
 }
