@@ -20,7 +20,6 @@ body {
   border: 0;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
-  letter-spacing: 4px;
   border-radius: 0;
 }
 
@@ -41,7 +40,8 @@ body {
 .container {
   overflow: hidden;
   width: 825px;
-  margin: auto
+  margin: auto;
+  padding-top: 70px;
 }
 
 
