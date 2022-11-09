@@ -54,7 +54,7 @@ h2 {
 
 .container {
   overflow: hidden;
-  width: 825px;
+  width: 75%;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -68,7 +68,7 @@ h2 {
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 825px;
+  width: 75%;
   height: 100%;
   margin: auto;
   border-left: solid 1px #EEE;
