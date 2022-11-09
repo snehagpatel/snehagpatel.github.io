@@ -52,11 +52,18 @@ h2 {
   color: #fff !important;
 }
 
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
 .container {
   overflow: hidden;
   width: 75%;
   margin-top: 0;
   margin-bottom: 0;
+  min-width: 375px;
+  max-width: 825px;
+
 }
 
 
