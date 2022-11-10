@@ -58,7 +58,7 @@ h2 {
 }
 
 .container {
-  overflow: hidden;
+  overflow: auto;
   width: 75%;
   margin-top: 0;
   margin-bottom: 0;
