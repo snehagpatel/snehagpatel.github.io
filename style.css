@@ -17,6 +17,7 @@ body {
   width:100%;
   background-color: #ecd9ba3d;
   overflow: auto;
+
 }
 
 h1 {
@@ -64,13 +65,14 @@ h2 {
   margin-bottom: 0;
   min-width: 375px;
   max-width: 825px;
+  min-height: 100%;
   height: auto;
 
 }
 
 #content-container {
   background-color: #fffaf1;
-  min-height: calc(100% - 162px);
+  min-height: calc(100%);
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 20px;
@@ -100,3 +102,26 @@ img.wholerow {
   height: auto;
 }
 
+img.home_page {
+  float: right;
+  width: 33.33%;
+  min-width: 200px;
+  max-width: 300px;
+  height: auto;
+  padding: 1%
+}
+
+img.small_page {
+  float: right;
+  width: 33.33%;
+  min-width: 200px;
+  max-width: 300px;
+  height: auto;
+  padding: 1%;
+  display: none;
+}
+
+@media screen and (max-width: 750px) { 
+  #picture.home_page { display: none; }
+  #picture.small_page { display: block;} 
+}
