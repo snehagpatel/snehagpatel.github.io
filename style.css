@@ -32,7 +32,7 @@ h2 {
 
 .navbar {
   margin-bottom: 0;
-  background-color: #51b86e;
+  background-color: #74B081;
   z-index: 9999;
   border: 0;
   font-size: 16px !important;
@@ -45,7 +45,7 @@ h2 {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #51b86e !important;
+  color: #74B081 !important;
   background-color: #fff !important;
   transition-duration: .25s;
 }
