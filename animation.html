@@ -1,0 +1,156 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>ABOUT - SNEHA G PATEL</title>
+    </head>
+
+    
+
+    <body>
+        <div id="nav-bar">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Snebsite</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/resume/SnehaPatel.pdf" target="_blank">Resume</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/gallery.html">Gallery</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container" id="content-container">
+            <div class="text-container">
+                <h1>Animated Films in 2022</h1>
+                <div>By Sneha Patel for OIDD-2450</div>
+                <h2>Introduction</h2>
+                <div> <p>I love animation. The first movie I watched in theaters was <i>Mulan</i>, and to this day, my favorite 
+                  film is <i>Shrek 2</i>. Animation is an entirely different medium for entertainment, with its own rules and 
+                  possibilities that differs from live-action content, but it is also capable of communicating themes 
+                  as effectively as other movies. However, Animated films are often bunched together, so while most 
+                  movies are categorized by content, animated films are isolated due to their style. </p>
+                  
+                  <p> Films with animation are associated with being “childish,” and overall the production style is not 
+                  recognized as competition to live-action productions. While remakes of animated films are common, 
+                  the original films are viewed strictly under the “Animation” Genre. Only three animated films have 
+                  been nominated for Best Picture. Even <i>Shrek</i>, the 
+                  <a href="https://www.boxofficemojo.com/year/2001/">2nd highest-grossing film in 2001</a>, 
+                  was not nominated, instead winning the newly created Best Animated Feature category.</p>
+                  
+                   <p> So why do I care? This lack of appreciation for animation affects the industry. Across the board, 
+                  <a href="https://www.techadvisor.com/article/874767/hbo-max-cancelling-animation.html">animations are being cut more and more</a>, 
+                  often because the budget for animation is higher, making it more 
+                  likely to cut financially. With distributors less likely to green light animations, it affects the 
+                  content the public receives, and will lead to a smaller pool of animated entertainment.</p>
+                </div>
+                <h2>Project Purpose & Data Acquisition</h2>
+                <div>
+                  <p>This data project aims to demonstrate the reception of animated media with respect to the entertainment 
+                    industry. <strong>This project will focus on American feature films released in 2022.</strong> IMDb was 
+                    scraped for 
+                    <a href="https://www.imdb.com/search/title/?title_type=feature&release_date=2022-01-01,2022-12-31&count=250&view=advanced">movie ratings and genres</a> 
+                    as well as for <a href="https://www.boxofficemojo.com/year/2022/?grossesOption=calendarGrosses&sort=gross&ref_=bo_yld__resort#table">domestic gross box office values</a>, 
+                    and <a href="https://www.the-numbers.com/movies/year/2022">The Numbers</a> was scraped for revenue to date (2/27/2023). 
+                    Once obtained, the gross box office data and the revenue data were both separately merged with the IMDb ratings, 
+                    which were then used for analysis. For the purposes of this project, an animated film is a film that IMDb recognized 
+                    under the “Animation” category.</p>
+                </div>
+                <h2>Distributions between Animated and Non-animated</h2>
+                <div>
+                  <p>Beginning the data exploration, there are two distributions that should be analyzed 
+                    for both animated films and not-animated films. For each distribution, 
+                    there is a box plot overlaying the distribution for summarization.</p>
+                    
+                    <div class='tableauPlaceholder' id='viz1677617941831' style='position: relative'><noscript><a href='#'><img alt='IMDb Rating Distribution ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;RatingsDist&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dp1_16776066998190&#47;RatingsDist' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;RatingsDist&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677617941831');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    
+                    <p>The first distribution (above) depicts IMDb Ratings from films that were rated 
+                      (i.e. a Rating above 0.00), and the bottom one depicting the Domestic Gross Box Office amounts. 
+                      When it comes to the IMDb ratings, the range is significantly larger for non-animated films, 
+                      most likely due to the quantity of movies. One detail to note is that when medians are measured 
+                      for both subsets, the median rating for animated films is .55 higher than for non-animated films. 
+                      On average, animated films were rated higher than non-animated films.</p>
+
+                      <div class='tableauPlaceholder' id='viz1677619114991' style='position: relative'><noscript><a href='#'><img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dp1_16776066998190&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677619114991');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='150px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+                    <p>Furthermore, when examining a similar visualization for the distribution of the Gross Box Office 
+                      values (above), it is important to note that the non-animated films’ distribution is right skewed. This suggests 
+                      that while animated films are not always outperforming in the box office, there is a significant portion 
+                      of non-animated films that “flop.” Similarly to ratings, the median gross for animated films is roughly 
+                      $55.7M versus $10.2M for non-animated films.</p>
+
+                    <p>These distributions demonstrate that on average, animated films are rated higher and gross more than 
+                      non-animated films. With non-animated films being the default for cinematography, it’s worth keeping this 
+                      animation advantage in mind. Animation requires a higher budget, but when it’s done, it is done well.</p>
+                </div>
+                <h2>IMDb Rating's Effect on Revenue</h2>
+                <div>
+                  <p>Another relation to consider is if ratings affect a film’s financial success. Since the rating would impact 
+                    the movie’s reception over time, financial success will be measured on revenue to date, as this is more likely 
+                    to include consumers who were influenced by the movie’s reviews.
+                  </p>
+
+                  <div class='tableauPlaceholder' id='viz1677619568704' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dp1_16776066998190&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677619568704');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                  
+                  <p>Above is a scatter plot between the revenue to date and the film’s IMDb rating. For animated and non-animated films,
+                     there is a trend line for each. In both trends, we have a positive slope, confirming that on average, as a 
+                     movie’s rating increases, the revenue increases as well. When it comes to animated films, however, the slope is 
+                     steeper, suggesting that for animated films, as the rating of the movie increases, the financial success for 
+                     animated films is higher than non-animated films. Hence, the financial success of animated films is more positively 
+                     impacted by ratings than non-animated films.
+                  </p>
+                </div>
+                <h2>Final Thoughts</h2>
+                <div>
+                  <p>From the provided visuals and analysis, I believe that in 2022, animated movies performed better than non-animated 
+                    films, particularly in critical reception and financially. While a large number of high-grossing films are not animated, 
+                    these films are outliers in their category. 
+                  </p>
+
+                  <div class='tableauPlaceholder' id='viz1677619694158' style='position: relative'><noscript><a href='#'><img alt='Dashboard 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;Dashboard4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dp1_16776066998190&#47;Dashboard4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dp&#47;dp1_16776066998190&#47;Dashboard4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677619694158');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+                  <p>One limitation to acknowledge for this project is that animation makes up a small percentage of films created. As seen 
+                    above, a little over 3% of films created (124 films) in 2022 are considered animation by IMDb. When these films are then 
+                    merged for financial data and ratings, this value shrinks dramatically. While this makes the comparative analysis weaker 
+                    between animated and non-animated works, it also emphasizes the fact that there is an underrepresentation of animation 
+                    in media.
+                  </p>
+                </div>
+                <h2>Now What?</h2>
+                <div>
+                  <p>From the above data analysis, if you are interested in exploring animated films, I have two recommendations depending 
+                    on what factors are more important to you. If you are more interested in what grasped the general public’s attention, I 
+                    recommend <i>Minions: The Rise of Gru</i>. It was the highest revenue animated film, with a revenue of over $950M, and 
+                    an above average IMDb rating of 6.60. Alternatively, if you are interested in a film that is well rated, then look no 
+                    further than <i>Puss in Boots: The Last Wish</i>. This film received a 7.90 on IMDb, and is nominated for Best Animated 
+                    Feature. When I watched this movie, I laughed, I cried, and it exceeded all of my expectations.
+                  </p>
+                  <p>
+                    I hope you enjoyed this data project!
+                  </p>
+                  <p>
+                    <a href="/projects.html">Return to Projects</a>
+                  </p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>
